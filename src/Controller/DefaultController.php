@@ -56,6 +56,19 @@ class DefaultController extends AbstractController
     }
 
     /**
+     * @Route("/{aaa}/liturgy_singl.html.twig", name="liturgy_singl.html.twig")
+     * @param $aaa
+     * @return Response
+     */
+    public function liturgySingl($aaa)
+    {
+        $result =  $this->render(/** @lang text */ 'lucky/liturgy_singl.html.twig', ['number' => $aaa]);
+        $this->addFlash('success', $aaa);
+
+        return $result;
+    }
+
+    /**
      * @Route("/{aaa}/liturgy.html.twig", name="liturgy.html.twig")
      * @param $aaa
      * @return Response

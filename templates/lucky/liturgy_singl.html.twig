@@ -1,11 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block stylesheets %}
-{{ parent() }}
-<link rel="stylesheet" type="text/css" href="{{ asset('styles/contact.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('styles/contact_responsive.css') }}">
-{% endblock %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/bootstrap4/bootstrap.min.css') }}">
+    <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/sermon_single.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/sermon_single_responsive.css') }}">
+{% endblock %}
 
         {% block body %}
 
@@ -70,9 +71,7 @@
 
                             <!-- Navigation and Search -->
                             <div class="header_nav_container ml-auto">
-
                                 {% include'lucky/menu.html.twig' %}
-
                                 <div class="search">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="13px" height="14px">
 										<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
@@ -134,17 +133,18 @@
     <!-- Home -->
 
     <div class="home">
-        <div class="home_background parallax-window" data-parallax="scroll" data-image-src="{{ asset('images/contact.jpg') }}" data-speed="0.8"></div>
+        <div class="home_background parallax-window" data-parallax="scroll" data-image-src="{{ asset('images/sermon_single.jpg') }}" data-speed="0.8"></div>
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="home_container">
                         <div class="home_content d-flex flex-row align-items-center justify-content-start">
-                            <div class="home_title">Contact</div>
+                            <div class="home_title">Sermon Single</div>
                             <div class="home_breadcrumbs ml-auto">
                                 <ul class="breadcrumbs">
                                     <li><a href="index.html">Home</a></li>
-                                    <li>Contact</li>
+                                    <li><a href="sermons.html">Sermons</a></li>
+                                    <li>Sermon Single</li>
                                 </ul>
                             </div>
                         </div>
@@ -154,98 +154,87 @@
         </div>
     </div>
 
-    <!-- Contact Map -->
+    <!-- Sermon -->
 
-    <div class="contact_map">
-
-        <!-- Google Map -->
-
-        <div class="map">
-            <div id="google_map" class="google_map">
-                <div class="map_container">
-                    <div id="map"></div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Contact Info -->
-
-    <div class="contact_info">
+    <div class="sermon">
+        <div class="sermon_image_big"><img src="{{ asset('images/sermon_big.jpg') }}" alt=""></div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="contact_title">Contact Info</div>
-                </div>
-            </div>
-            <div class="row contact_info_row row-eq-height">
-
-                <!-- Contact Info Content -->
-                <div class="col-lg-6 d-flex flex-column align-items-start justify-content-end">
-                    <div class="row">
-                        <div class="col-lg-6 contact_info_col">
-                            <div class="contact_info_title">Los Angeles Church</div>
-                            <ul class="contact_info_list">
-                                <li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
-                                <li class="footer_contact_phone">
-                                    <span>Phone: </span>
-                                    <div>
-                                        <div> +53 345 7953 32453</div>
-                                        <div> +53 345 7557 822112</div>
-                                    </div>
-                                </li>
-                                <li><span>Email: </span>yourmail@gmail.com</li>
+                    <div class="sermon_title_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+                        <div class="sermon_content">
+                            <div class="sermon_title">Receive The Holy Spirit By Jesus Christ</div>
+                            <ul class="sermon_list">
+                                <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
+                                <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
+                                <li>Date: <a href="#">Monday 11 March, 2018</a></li>
                             </ul>
+
                         </div>
-                        <div class="col-lg-6 contact_info_col">
-                            <div class="contact_info_title">San Francisco Church</div>
-                            <ul class="contact_info_list">
-                                <li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
-                                <li class="footer_contact_phone">
-                                    <span>Phone: </span>
-                                    <div>
-                                        <div> +53 345 7953 32453</div>
-                                        <div> +53 345 7557 822112</div>
-                                    </div>
-                                </li>
-                                <li><span>Email: </span>yourmail@gmail.com</li>
+                        <div class="sermon_buttons ml-lg-auto">
+                            <ul>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_1.svg') }}" alt=""></li>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_2.svg') }}" alt=""></li>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_3.svg') }}" alt=""></li>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_4.svg') }}" alt=""></li>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_5.svg') }}" alt=""></li>
+                                <li class="sermon_item"><img class="svg" src="{{ asset('images/sermon_6.svg') }}" alt=""></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
-                <!-- Contact Info Image -->
+            </div>
+            <div class="row">
                 <div class="col-lg-6">
-                    <div class="contact_info_image"><img src="{{ asset('images/contact_image.jpg') }}" alt=""></div>
+                    <div class="sermon_text">
+                        <p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget aliquam magna vehicula.nteger nec bibendum lacus. Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sermon_text">
+                        <p>At finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget aliquam magna vehicula.nteger nec bibendum lacus. Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Contact Form -->
-
-    <div class="contact_form_section">
-        <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="contact_title">Contact Us</div>
-                    <form action="#" class="contact_form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="contact_input contacts_input_name" placeholder="Your Name" required="required">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="contact_input contact_input_email" placeholder="Your E-mail" required="required">
-                            </div>
-                        </div>
-                        <textarea id="contact_text_area" placeholder="Your Message" class="contact_text"></textarea>
-                        <button class="contact_button trans_200">Submit</button>
-                    </form>
+                    <div class="sermon_image_small"><img src="{{ asset('images/sermon_small.jpg') }}" alt=""></div>
                 </div>
             </div>
             <div class="row">
-
+                <div class="col">
+                    <div class="sermon_pastor d-flex flex-row align-items-start justify-content-start">
+                        <div class="sermon_pastor_image_container">
+                            <div class="sermon_pastor_image"><img src="{{ asset('images/sermon_pastor.jpg') }}" alt=""></div>
+                        </div>
+                        <div class="sermon_pastor_content">
+                            <div class="sermon_pastor_title">Michael Miths</div>
+                            <div class="sermon_pastor_subtitle">Lead Pastor</div>
+                            <div class="sermon_pastor_text">
+                                <p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="comment_form_container">
+                        <div class="comment_title">Leave a comment</div>
+                        <form action="#" class="comment_form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="comment_input comment_input_name" placeholder="Your Name" required="required">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="comment_input comment_input_email" placeholder="Your E-mail" required="required">
+                                </div>
+                            </div>
+                            <textarea id="comment_text_area" placeholder="Your Comment" class="comment_text"></textarea>
+                            <button class="comment_button trans_200">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -276,11 +265,4 @@
 
 </div>
 
-            <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
-            <script src="{{ asset('styles/bootstrap4/popper.js') }}"></script>
-            <script src="{{ asset('styles/bootstrap4/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('plugins/easing/easing.js') }}"></script>
-            <script src="{{ asset('plugins/parallax-js-master/parallax.min.js') }}"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-            <script src="{{ asset('js/contact_custom.js') }}"></script>
 {% endblock %}

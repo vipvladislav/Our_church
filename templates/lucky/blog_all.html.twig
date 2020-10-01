@@ -1,4 +1,10 @@
 {% extends 'base.html.twig' %}
+ {% block stylesheets %}
+     <link rel="stylesheet" type="text/css" href="{{ asset('styles/bootstrap4/bootstrap.min.css') }}">
+    <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/blog.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/blog_responsive.css') }}">
+ {% endblock %}
 
 {% block body %}
 
@@ -124,7 +130,7 @@
         <!-- Home -->
 
         <div class="home">
-            <div class="home_background parallax-window" data-parallax="scroll" image-src="{{ asset('images/blog_1.jpg') }}"  data-speed="0.8"></div>
+            <div class="home_background parallax-window" data-parallax="scroll" data-image-src="{{ asset('images/blog_1.jpg') }}"  data-speed="0.8"></div>
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -133,7 +139,7 @@
                                 <div class="home_title">News</div>
                                 <div class="home_breadcrumbs ml-auto">
                                     <ul class="breadcrumbs">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="number.html.twig">Home</a></li>
                                         <li>News</li>
                                     </ul>
                                 </div>
