@@ -3,14 +3,8 @@
 
 {% block stylesheets %}
     {{ parent() }}
-    <link rel="stylesheet" type="text/css" href="{{ asset('styles/bootstrap4/bootstrap.min.css') }}">
-    <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/OwlCarousel2-2.2.1/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('styles/sermons.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('styles/sermons_responsive.css') }}">
-
 {% endblock %}
 
         {% block body %}
@@ -183,7 +177,7 @@
                 <!-- Sermon Content -->
                 <div class="col-lg-6">
                     <div class="sermon_content">
-                        <div class="sermon_title"><a href="sermon_single.html">Receive The Holy Spirit By Jesus Christ</a></div>
+                        <div class="sermon_title"><a href="liturgy_singl.html.twig">Receive The Holy Spirit By Jesus Christ</a></div>
                         <ul class="sermon_list">
                             <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
                             <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
@@ -229,7 +223,7 @@
                     <div class="popular_item">
                         <div class="popular_image"><img src="{{ asset('images/popular_1.jpg') }}" alt="https://unsplash.com/@joshapplegate"></div>
                         <div class="sermon_content">
-                            <div class="sermon_title"><a href="sermon_single.html">Receive The Holy Spirit By Jesus Christ</a></div>
+                            <div class="sermon_title"><a href="liturgy_singl.html.twig">Receive The Holy Spirit By Jesus Christ</a></div>
                             <ul class="sermon_list">
                                 <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
                                 <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
@@ -257,7 +251,7 @@
                     <div class="popular_item">
                         <div class="popular_image"><img src="{{ asset('images/popular_2.jpg') }}" alt="https://unsplash.com/@joshapplegate"></div>
                         <div class="sermon_content">
-                            <div class="sermon_title"><a href="sermon_single.html">Receive The Holy Spirit By Jesus Christ</a></div>
+                            <div class="sermon_title"><a href="liturgy_singl.html.twig">Receive The Holy Spirit By Jesus Christ</a></div>
                             <ul class="sermon_list">
                                 <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
                                 <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
@@ -285,7 +279,7 @@
                     <div class="popular_item">
                         <div class="popular_image"><img src="{{ asset('images/popular_3.jpg') }}" alt="https://unsplash.com/@joshapplegate"></div>
                         <div class="sermon_content">
-                            <div class="sermon_title"><a href="sermon_single.html">Receive The Holy Spirit By Jesus Christ</a></div>
+                            <div class="sermon_title"><a href="liturgy_singl.html.twig">Receive The Holy Spirit By Jesus Christ</a></div>
                             <ul class="sermon_list">
                                 <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
                                 <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
@@ -313,7 +307,7 @@
                     <div class="popular_item">
                         <div class="popular_image"><img src="{{ asset('images/popular_4.jpg') }}" alt="https://unsplash.com/@knixon"></div>
                         <div class="sermon_content">
-                            <div class="sermon_title"><a href="sermon_single.html">Receive The Holy Spirit By Jesus Christ</a></div>
+                            <div class="sermon_title"><a href="liturgy_singl.html.twig">Receive The Holy Spirit By Jesus Christ</a></div>
                             <ul class="sermon_list">
                                 <li>Sermon by: <a href="#">Priest Jack Smith</a></li>
                                 <li>Categories: <a href="#">Jesus Christ</a>, <a href="#">Holy</a></li>
@@ -428,82 +422,8 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Column -->
-                <div class="col-lg-4 footer_col">
-
-                    <!-- Logo -->
-                    <div class="logo_container">
-                        <div class="logo">
-                            <a href="#">
-                                <span>Believe</span>
-                                <img src="{{ asset('images/logo_large.jpg') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="logo_subtitle">Church template</div>
-                    </div>
-                    <div class="footer_social">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Footer Column -->
-                <div class="col-lg-4 footer_col">
-                    <div class="footer_links">
-                        <div class="footer_title">Useful Links</div>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Donations</a></li>
-                            <li><a href="#">Sermons</a></li>
-                            <li><a href="#">Causes</a></li>
-                            <li><a href="#">Quotes</a></li>
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="#">Event List</a></li>
-                            <li><a href="ministries.html">Ministries</a></li>
-                            <li><a href="#">Priests</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Footer Column -->
-                <div class="col-lg-3 footer_col">
-                    <div class="footer_contact">
-                        <div class="footer_title">Contact Us</div>
-                        <ul>
-                            <li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
-                            <li class="footer_contact_phone">
-                                <span>Phone: </span>
-                                <div>
-                                    <div> +53 345 7953 32453</div>
-                                    <div> +53 345 7557 822112</div>
-                                </div>
-                            </li>
-                            <li><span>Email: </span>yourmail@gmail.com</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </div>
-
-    </footer>
+    {% include'lucky/footer.html.twig' %}
 
 </div>
-{% include'lucky/footer.html.twig' %}
 
 {% endblock %}
