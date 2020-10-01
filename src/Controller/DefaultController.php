@@ -10,6 +10,8 @@ class DefaultController extends AbstractController
 {
     /**
      * @Route("/{aaa}/blog", name="blog_list")
+     * @param $aaa
+     * @return Response
      */
     public function index($aaa)
     {
