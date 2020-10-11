@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/db.opt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201011171807.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/number.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/number.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/blog_all.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/number.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +196,10 @@
       <workItem from="1601568066224" duration="4720000" />
       <workItem from="1601616921813" duration="6210000" />
       <workItem from="1601649512074" duration="29000" />
-      <workItem from="1602435005407" duration="1789000" />
+      <workItem from="1602435005407" duration="2469000" />
+      <workItem from="1602437788087" duration="1151000" />
+      <workItem from="1602443219876" duration="915000" />
+      <workItem from="1602445157015" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="my new project">
       <created>1601490648671</created>
@@ -302,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601585551227</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add DB church">
+      <created>1602436870315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602436870315</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +320,9 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="add doc" />
     <MESSAGE value="fixed files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed files" />
+    <MESSAGE value="add DB" />
+    <MESSAGE value="add DB church" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DB church" />
   </component>
   <component name="WindowStateProjectService">
     <state x="871" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601575211779">
@@ -334,13 +333,15 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="209" y="350" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.997@0.34.1920.997" timestamp="1601532181622" />
-    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2" timestamp="1601585548106">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2" timestamp="1602436862402">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
+    <state x="728" y="34" key="CommitChangelistDialog2/0.34.1920.994@0.34.1920.994" timestamp="1602436862402" />
     <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2/0.34.1920.997@0.34.1920.997" timestamp="1601585548106" />
-    <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl" timestamp="1601633933881">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl" timestamp="1602444128379">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
+    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.994@0.34.1920.994" timestamp="1602444128379" />
     <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.997@0.34.1920.997" timestamp="1601633933881" />
     <state width="1864" height="246" key="GridCell.Tab.0.bottom" timestamp="1601534119912">
       <screen x="0" y="34" width="1920" height="997" />
@@ -358,9 +359,10 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state width="1864" height="246" key="GridCell.Tab.0.right/0.34.1920.997@0.34.1920.997" timestamp="1601534119911" />
-    <state width="318" height="572" key="HiddenNamespacesPopup" timestamp="1601583086968">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state width="318" height="571" key="HiddenNamespacesPopup" timestamp="1602438229031">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
+    <state width="318" height="571" key="HiddenNamespacesPopup/0.34.1920.994@0.34.1920.994" timestamp="1602438229031" />
     <state width="318" height="572" key="HiddenNamespacesPopup/0.34.1920.997@0.34.1920.997" timestamp="1601583086968" />
     <state x="600" y="202" width="709" height="658" key="NewPhpClassDialog" timestamp="1601484277071">
       <screen x="0" y="34" width="1920" height="997" />
@@ -370,9 +372,10 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="324" y="79" key="SettingsEditor/0.34.1920.997@0.34.1920.997" timestamp="1601496718917" />
-    <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2" timestamp="1601585552817">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state x="991" y="345" width="887" height="632" key="Vcs.Push.Dialog.v2" timestamp="1602436874548">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
+    <state x="991" y="345" key="Vcs.Push.Dialog.v2/0.34.1920.994@0.34.1920.994" timestamp="1602436874548" />
     <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601585552817" />
     <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602436794469">
       <screen x="0" y="34" width="1920" height="994" />

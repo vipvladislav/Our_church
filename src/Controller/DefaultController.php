@@ -9,14 +9,12 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/{aaa}/blog", name="blog_list")
-     * @param $aaa
+     * @Route("/", name="home")
      * @return Response
      */
-    public function index($aaa)
+    public function index()
     {
-        $this->addFlash('success', $aaa);
-        return $this->render('lucky/number.html.twig', ['number' => $aaa]);
+        return $this->render('lucky/index.html.twig', []);
     }
 
 //    /**
@@ -26,36 +24,28 @@ class DefaultController extends AbstractController
 //     */
 //    public function index($aaa)
 //    {
-//        $result =  $this->render('lucky/number.html.twig', ['number' => $aaa]);
+//        $result =  $this->render('lucky/index.html.twig', ['number' => $aaa]);
 //        $this->addFlash('success', $aaa);
 //
 //        return $result;
 //    }
 
     /**
-     * @Route("/{aaa}/blog_all.html.twig", name="blog_all.html.twig")
-     * @param $aaa
+     * @Route("/blog", name="blog")
      * @return Response
      */
-    public function blogAll($aaa)
+    public function blog()
     {
-        $result =  $this->render('lucky/blog_all.html.twig', ['number' => $aaa]);
-        $this->addFlash('success', $aaa);
-
-        return $result;
+        return $this->render('lucky/blog.html.twig', []);
     }
 
     /**
-     * @Route("/{aaa}/news.html.twig", name="news.html.twig")
-     * @param $aaa
+     * @Route("/news", name="news")
      * @return Response
      */
-    public function newsAll($aaa)
+    public function news()
     {
-        $result =  $this->render('lucky/news.html.twig', ['number' => $aaa]);
-        $this->addFlash('success', $aaa);
-
-        return $result;
+        return $this->render('lucky/news.html.twig', []);
     }
 
     /**
@@ -72,29 +62,21 @@ class DefaultController extends AbstractController
     }
 
     /**
-     * @Route("/{aaa}/liturgy.html.twig", name="liturgy.html.twig")
-     * @param $aaa
+     * @Route("/liturgy", name="liturgy")
      * @return Response
      */
-    public function liturgy($aaa)
+    public function liturgy()
     {
-        $result =  $this->render(/** @lang text */ 'lucky/liturgy.html.twig', ['number' => $aaa]);
-        $this->addFlash('success', $aaa);
-
-        return $result;
+        return $this->render(/** @lang text */ 'lucky/liturgy.html.twig', []);
     }
 
     /**
-     * @Route("/{aaa}/contact.html.twig", name="contact.html.twig")
-     * @param $aaa
+     * @Route("/contact", name="contact")
      * @return Response
      */
-    public function contact($aaa)
+    public function contact()
     {
-        $result =  $this->render(/** @lang text */ 'lucky/contact.html.twig', ['number' => $aaa]);
-        $this->addFlash('success', $aaa);
-
-        return $result;
+        return $this->render(/** @lang text */ 'lucky/contact.html.twig', []);
     }
 
 }
