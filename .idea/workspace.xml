@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lucky/liturgy_singl.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201011171807.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/blog_all.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/blog_all.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/elements.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/elements.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/liturgy.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/liturgy.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/news.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/news.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/number.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/number.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +152,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -192,7 +205,11 @@
       <workItem from="1601494380454" duration="1689000" />
       <workItem from="1601496596477" duration="131000" />
       <workItem from="1601496754746" duration="183000" />
-      <workItem from="1601498194084" duration="20059000" />
+      <workItem from="1601498194084" duration="20197000" />
+      <workItem from="1601568066224" duration="4720000" />
+      <workItem from="1601616921813" duration="6210000" />
+      <workItem from="1601649512074" duration="29000" />
+      <workItem from="1602435005407" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="my new project">
       <created>1601490648671</created>
@@ -264,13 +281,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601547054017</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed">
+      <created>1601554377949</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601554377949</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add doc">
+      <created>1601585513397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601585513397</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed files">
+      <created>1601585551227</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601585551227</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/our_church" />
     </ignored-roots>
@@ -281,21 +320,28 @@
     <MESSAGE value="work in: &#10;blog.html.twig, contact.html.twig, elements.html.twig, footer.html.twig, liturgy.html.twig, menu.html.twig, news.html.twig &amp;&amp; edit number.html.twig" />
     <MESSAGE value="add Routs" />
     <MESSAGE value="add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add images" />
+    <MESSAGE value="fixed" />
+    <MESSAGE value="add doc" />
+    <MESSAGE value="fixed files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed files" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="871" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601575211779">
+      <screen x="0" y="34" width="1920" height="997" />
+    </state>
+    <state x="871" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1920.997@0.34.1920.997" timestamp="1601575211779" />
     <state x="209" y="350" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601532181622">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="209" y="350" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.997@0.34.1920.997" timestamp="1601532181622" />
-    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2" timestamp="1601547053874">
+    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2" timestamp="1601585548106">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
-    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2/0.34.1920.997@0.34.1920.997" timestamp="1601547053874" />
-    <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl" timestamp="1601547891223">
+    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2/0.34.1920.997@0.34.1920.997" timestamp="1601585548106" />
+    <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl" timestamp="1601633933881">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
-    <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.997@0.34.1920.997" timestamp="1601547891223" />
+    <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.997@0.34.1920.997" timestamp="1601633933881" />
     <state width="1864" height="246" key="GridCell.Tab.0.bottom" timestamp="1601534119912">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
@@ -312,6 +358,10 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state width="1864" height="246" key="GridCell.Tab.0.right/0.34.1920.997@0.34.1920.997" timestamp="1601534119911" />
+    <state width="318" height="572" key="HiddenNamespacesPopup" timestamp="1601583086968">
+      <screen x="0" y="34" width="1920" height="997" />
+    </state>
+    <state width="318" height="572" key="HiddenNamespacesPopup/0.34.1920.997@0.34.1920.997" timestamp="1601583086968" />
     <state x="600" y="202" width="709" height="658" key="NewPhpClassDialog" timestamp="1601484277071">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
@@ -320,14 +370,15 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="324" y="79" key="SettingsEditor/0.34.1920.997@0.34.1920.997" timestamp="1601496718917" />
-    <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2" timestamp="1601547056223">
+    <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2" timestamp="1601585552817">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
-    <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601547056223" />
-    <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601554330649">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601585552817" />
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602436794469">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601554330649" />
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1602436794469" />
+    <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601585671752" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601534887479">
       <screen x="0" y="34" width="1920" height="997" />
     </state>

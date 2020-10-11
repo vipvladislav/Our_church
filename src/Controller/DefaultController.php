@@ -15,6 +15,7 @@ class DefaultController extends AbstractController
      */
     public function index($aaa)
     {
+        $this->addFlash('success', $aaa);
         return $this->render('lucky/number.html.twig', ['number' => $aaa]);
     }
 
