@@ -1,4 +1,17 @@
 <?php
+//// HOME WORK IN COURCE PHP
+//$child = ["blue" => "Sasha", "red" => "Dasha", "gold" => "Pasha"];
+//
+//foreach ($child as $x => $x_value) {
+//
+//    print_r (
+//        "<h3 style='background-color: $x'>"
+//            . "Key =>" . "$x"
+//            . ", Value=" . "$x_value"
+//            . "</h3>"
+//    );
+//    echo "<br>";
+//}exit;
 
 use App\Kernel;
 use Symfony\Component\Dotenv\Dotenv;

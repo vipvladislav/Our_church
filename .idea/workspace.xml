@@ -2,15 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/category.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/mysql/church/category.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201015131417.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/09572078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-1._Комплекс_споруд_Свято-Духівського_Скиту_Свято-Успенської_Лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-3._Комплекс_споруд_Свято-Духівського_Скиту_Свято-Успенської_Лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-3._Успенський_собор_Почаївської_лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-4._Комплекс_споруд_Свято-Духівського_Скиту_Свято-Успенської_Лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-5._Комплекс_споруд_Свято-Духівського_Скиту_Свято-Успенської_Лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-PochaevBelltower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Pochayiv_13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Pochayiv_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Pochayiv_17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Почаевская_лавра._Духовная_семинария..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Почаевская_лавра._Летний_алтарь..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Почаевская_лавра._Троицкий_собор..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Почаевская_лавра._Храм_Иова_Почаевского..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Почаевская_лавра._Церковь_Великомученицы_Варвары..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1024px-Украина_-_Почаевская_Лавра_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/1031184_800x600_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/183022.b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/800px-1._Успенський_собор_Почаївської_лаври.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/800px-Дзвіниця_1861р.,_Свято-Успенська_Почаївська_Лавра,_м.Почаїв.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/800px-Троицкий_собор_Почаевской_Лавры.Интерьер-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Jov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpB.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3g-EfPg7jYGAo_O3oBChEj38oAL9TQOBI5W1Y-WegleXl-rGavjCkqYC-aYYZfTk6I77Nm4xl8aJd4JXx81hrxv4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3g-EfPg7jYGAo_O3oBChEj38oAL9TQOBI5W1Y-WegleXlieFAB0duNADyZUrKlA9-0nuZAar2O7q0gCWZoqSLtxU.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3gwgogZj_9RemJiFBPfzuNNCedSwyPfTJagFZ1OaQBKWVr8ZlOCQS7J4Zur2MPJoiEhGLW94BUulRl1InLU7vbJuu5F6vOk-gQneW0tlDVlxE.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3gwgogZj_9RemJiFBPfzuNNCedSwyPfTJagFZ1OaQBKWVr8ZlOCQS7J4Zur2MPJoiEmQXzIddbJcuBKB3QSSQ8gxofh941w2MIGllzxWCc3lZ.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3gwgogZj_9RemJiFBPfzuNNCedSwyPfTJagFZ1OaQBKWVr8ZlOCQS7J4Zur2MPJoiEoxJWqNP3gwjh6_M19fSG0MWCalOPPTWavIf8g_1UdV7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3gwgogZj_9RemJiFBPfzuNNCedSwyPfTJagFZ1OaQBKWVr8ZlOCQS7J4Zur2MPJoiEsbrASgbC33NCq5G6PuBPB8DB2Oqr4eQ14lozcwgDvwq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Lr65zpBzkUXT9VKax3T3gwgogZj_9RemJiFBPfzuNNCedSwyPfTJagFZ1OaQBKWVr8ZlOCQS7J4Zur2MPJoiEtZbCyxJqWU_aDT2ZtUsDWpy-ZsGVT9XmI1l4NTurhZL.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Pochaev-wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/PochaevChapel400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Pochaiv_Monastery_2_BR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Pochaiv_Monastery_6_BR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Pochayiv_15.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Pochayiv_22.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Počajiv,_Lavra_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/lJZcHk_600w_350h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/plan2-840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/usp_soboor6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Багародзіца_Пачаеўская_з_цудамі._2-я_пал._XVIII_ст.,_Валынь.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Дзвіниця._Почаївська_лавра_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Мефодій_Почаївський.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Почаевская_Лавра-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Почаевская_Лавра-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Почаевская_икона_Божией_Матери_из_собрания_ДОХМ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Почаївська_Лавра-26.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pochaev/Снимок.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/0097-e1410790363748-300x271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/061215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/10. 2006г установка купола.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/11.  2006г установка купола.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/13.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/14. о.Алексей 2013г.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/15.   2014г  Работа над иконостасом.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/2003г (1) о.Стефан в храме.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/2003г о.Стефан в храме.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/2003г храм до реконструкции (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/2003г храм до реконструкции (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/20160103_122422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/20160103_122433.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/5 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/5.  2006г реконструкция.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/6.  2006г реконструкция.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/61215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/7 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/7.  2006г храм реконструкция.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/8.  2006г реконструкция.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/9. 2006г  реконструкция.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/DSCN2713.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/DSCN2717.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/DSCN2717_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_4941.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5126.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5128.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5129.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5133.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5137.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_5139.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/dzYKROWLVUU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/ikona xrama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/image-76112c87e7ad4c49096832cab410870ca82398905807a6f9b45125411cd0fc1a-V.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/jA8UHGJHemQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/pro xram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xpam/restavratsiya-khrama_sergey-pyatakov1-600x403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/article.frm" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/doctrine_migration_versions.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/blog_all.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/blog.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/number.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +314,13 @@
       <workItem from="1602435005407" duration="2469000" />
       <workItem from="1602437788087" duration="1151000" />
       <workItem from="1602443219876" duration="915000" />
-      <workItem from="1602445157015" duration="935000" />
+      <workItem from="1602445157015" duration="1126000" />
+      <workItem from="1602448397969" duration="2703000" />
+      <workItem from="1602451286811" duration="1315000" />
+      <workItem from="1602502014878" duration="967000" />
+      <workItem from="1602761000388" duration="60000" />
+      <workItem from="1602761202965" duration="68000" />
+      <workItem from="1602761430160" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="my new project">
       <created>1601490648671</created>
@@ -299,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602436870315</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add Routs">
+      <created>1602446199037</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602446199037</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,14 +443,14 @@
     <MESSAGE value="add style, js, images" />
     <MESSAGE value="add blog.html.twig, contact.html.twig, elements.html.twig, footer.html.twig, liturgy.html.twig, menu.html.twig, news.html.twig &amp;&amp; edit number.html.twig" />
     <MESSAGE value="work in: &#10;blog.html.twig, contact.html.twig, elements.html.twig, footer.html.twig, liturgy.html.twig, menu.html.twig, news.html.twig &amp;&amp; edit number.html.twig" />
-    <MESSAGE value="add Routs" />
     <MESSAGE value="add images" />
     <MESSAGE value="fixed" />
     <MESSAGE value="add doc" />
     <MESSAGE value="fixed files" />
     <MESSAGE value="add DB" />
     <MESSAGE value="add DB church" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DB church" />
+    <MESSAGE value="add Routs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Routs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="871" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601575211779">
@@ -333,10 +461,14 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="209" y="350" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.997@0.34.1920.997" timestamp="1601532181622" />
-    <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2" timestamp="1602436862402">
+    <state x="1198" y="205" width="468" height="704" key="#com.intellij.ide.util.MemberChooser" timestamp="1602768610751">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="728" y="34" key="CommitChangelistDialog2/0.34.1920.994@0.34.1920.994" timestamp="1602436862402" />
+    <state x="1198" y="205" width="468" height="704" key="#com.intellij.ide.util.MemberChooser/0.34.1920.994@0.34.1920.994" timestamp="1602768610751" />
+    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2" timestamp="1602446192610">
+      <screen x="0" y="34" width="1920" height="994" />
+    </state>
+    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2/0.34.1920.994@0.34.1920.994" timestamp="1602446192610" />
     <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2/0.34.1920.997@0.34.1920.997" timestamp="1601585548106" />
     <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl" timestamp="1602444128379">
       <screen x="0" y="34" width="1920" height="994" />
@@ -372,15 +504,15 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="324" y="79" key="SettingsEditor/0.34.1920.997@0.34.1920.997" timestamp="1601496718917" />
-    <state x="991" y="345" width="887" height="632" key="Vcs.Push.Dialog.v2" timestamp="1602436874548">
+    <state x="910" y="345" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1602446203358">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="991" y="345" key="Vcs.Push.Dialog.v2/0.34.1920.994@0.34.1920.994" timestamp="1602436874548" />
+    <state x="910" y="345" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1920.994@0.34.1920.994" timestamp="1602446203358" />
     <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601585552817" />
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602436794469">
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602762538208">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1602436794469" />
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1602762538208" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601585671752" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601534887479">
       <screen x="0" y="34" width="1920" height="997" />

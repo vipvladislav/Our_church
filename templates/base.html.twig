@@ -24,11 +24,11 @@
         {% endblock %}
     </head>
     <body>
-    {% for message in app.flashes('success') %}
-        <div class="alert-success">
-            {{ message }}
-        </div>
-    {% endfor %}
+{#    {% for message in app.flashes('success') %}#}
+{#        <div class="alert-success">#}
+{#            {{ message }}#}
+{#        </div>#}
+{#    {% endfor %}#}
         {% block body %}{% endblock %}
         {% block javascripts %}
             <script src="{{ asset('js/jquery-3.2.1.min.js')  }}"></script>
