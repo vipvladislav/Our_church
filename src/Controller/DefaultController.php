@@ -3,9 +3,12 @@ namespace App\Controller;
 
 use App\Entity\Article;
 use App\Entity\Category;
+use App\Form\ArticleType;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -73,26 +76,44 @@ class DefaultController extends AbstractController
     /**
      * @Route(path="/add-article")
      * @param EntityManagerInterface $entityManager
+     * @param Request $request
      * @return Response
      */
-    public function next(EntityManagerInterface $entityManager)
+    public function next(EntityManagerInterface $entityManager, Request $request)
     {
-        $category = new Category();
-        $category->setTitle('qqqqq');
+        $request->request->all();
+//        $category = new Category();
+//        $category->setTitle('qqqqq');
 
         $article = new Article();
-        $article
-            ->setImage('my-image')
-            ->setContent('my-content')
-            ->setTitle('my title')
-            ->setCategories($category)
-            ;
 
-        $entityManager->persist($category);
-        $entityManager->persist($article);
-        $entityManager->flush();
-        return new Response('Done!');
+        $form = $this->createForm(ArticleType::class, $article);
 
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+             $entityManager->persist($article);
+             $entityManager->flush();
+
+             return new Response('Done!');
+        }
+
+        return $this->render('lucky/article_form.html.twig', [
+            'articleForm' => $form->createView(),
+        ]);
+
+//        $article
+//            ->setImage('my-image')
+//            ->setContent('my-content')
+//            ->setTitle('my title')
+//            ->setCategories($category)
+//            ;
+
+//        $entityManager->persist($category);
+//        $entityManager->persist($article);
+//        $entityManager->flush();
+//        return new Response('Done!');
+//
     }
 
     /**
