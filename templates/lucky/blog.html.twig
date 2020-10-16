@@ -1,7 +1,6 @@
 {% extends 'base.html.twig' %}
  {% block stylesheets %}
-     <link rel="stylesheet" type="text/css" href="{{ asset('styles/bootstrap4/bootstrap.min.css') }}">
-    <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+{{ parent() }}
     <link rel="stylesheet" type="text/css" href="{{ asset('styles/blog.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('styles/blog_responsive.css') }}">
  {% endblock %}
@@ -348,7 +347,10 @@
                 </div>
             </div>
         </div>
-
+{% block javascripts %}
+    {{ parent() }}
+        <script src="{{ asset('js/blog_custom.js') }}"></script>
+{% endblock %}
         <!-- Footer -->
 
         {% include'lucky/footer.html.twig' %}

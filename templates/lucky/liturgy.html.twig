@@ -389,6 +389,10 @@
         </div>
     </div>
 
+    {% block javascripts %}
+        {{ parent() }}
+    <script src="{{ asset('js/sermons_custom.js') }}"></script>
+    {% endblock %}
     <!-- Footer -->
 
     {% include'lucky/footer.html.twig' %}
