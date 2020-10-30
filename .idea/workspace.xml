@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/xpam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/15697756_1865555590356189_2423966534624312527_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/20130809_110959.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/CSWnqZCefxk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/FB_IMG_1479550437388.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/FB_IMG_1479550441127.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG-7fe9a6008af1f51571357b363f593a4f-V.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_1004.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/IMG_1320.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/aleks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/kak-dolzhen-vyglyadet-natelnyj-krestik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/logouu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/onufri.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/silvestr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xpam/vladis.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lucky/article_form.html.twig" afterDir="false" />
+    <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="add Data Fixtures">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ArticleFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/our_church.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/our_church.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/category.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/category.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" afterDir="false" />
@@ -31,8 +20,11 @@
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/xpam/019.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lucky/article_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/article_form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -140,7 +138,6 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
@@ -150,6 +147,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/zenstruck/foundry" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iEf00gECVb6dJsOymLvvHYx8pg" />
@@ -167,7 +168,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projekts/church/church" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP_Symfony_1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,17 +176,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/lucky" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/lucky" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -230,6 +231,23 @@
       <workItem from="1602761202965" duration="68000" />
       <workItem from="1602761430160" duration="7485000" />
       <workItem from="1602846691298" duration="19141000" />
+      <workItem from="1602954071917" duration="481000" />
+      <workItem from="1602954578029" duration="2438000" />
+      <workItem from="1602957042933" duration="3221000" />
+      <workItem from="1603142913428" duration="1366000" />
+      <workItem from="1603144343779" duration="102000" />
+      <workItem from="1603144579509" duration="4429000" />
+      <workItem from="1603149070680" duration="1002000" />
+      <workItem from="1603276460169" duration="606000" />
+      <workItem from="1603735590920" duration="3082000" />
+      <workItem from="1603738700284" duration="650000" />
+      <workItem from="1603739380346" duration="150000" />
+      <workItem from="1603740802665" duration="2055000" />
+      <workItem from="1603743066212" duration="733000" />
+      <workItem from="1603913552114" duration="6045000" />
+      <workItem from="1603920177198" duration="42000" />
+      <workItem from="1603920289221" duration="611000" />
+      <workItem from="1604085899558" duration="3600000" />
     </task>
     <task id="LOCAL-00001" summary="my new project">
       <created>1601490648671</created>
@@ -404,9 +422,14 @@
     <MESSAGE value="add top_bar_donat.html.twig and include" />
     <MESSAGE value="fixed files" />
     <MESSAGE value="add logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logo" />
+    <MESSAGE value="add Data Fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Data Fixtures" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="198" width="740" height="672" key="#Inspections" timestamp="1602955541170">
+      <screen x="0" y="34" width="1920" height="994" />
+    </state>
+    <state x="585" y="198" width="740" height="672" key="#Inspections/0.34.1920.994@0.34.1920.994" timestamp="1602955541170" />
     <state x="871" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601575211779">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
@@ -419,19 +442,19 @@
       <screen x="0" y="34" width="1920" height="994" />
     </state>
     <state x="1198" y="205" width="468" height="704" key="#com.intellij.ide.util.MemberChooser/0.34.1920.994@0.34.1920.994" timestamp="1602768610751" />
-    <state x="1105" y="255" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602876695112">
+    <state x="1105" y="255" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604087173958">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="1105" y="255" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.34.1920.994@0.34.1920.994" timestamp="1602876695112" />
-    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2" timestamp="1602872365113">
+    <state x="1105" y="255" width="655" height="605" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.34.1920.994@0.34.1920.994" timestamp="1604087173958" />
+    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2" timestamp="1604089717308">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2/0.34.1920.994@0.34.1920.994" timestamp="1602872365113" />
+    <state x="728" y="34" width="1096" height="994" key="CommitChangelistDialog2/0.34.1920.994@0.34.1920.994" timestamp="1604089717308" />
     <state x="728" y="34" width="1182" height="997" key="CommitChangelistDialog2/0.34.1920.997@0.34.1920.997" timestamp="1601585548106" />
-    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl" timestamp="1602847449991">
+    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl" timestamp="1603914085746">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.994@0.34.1920.994" timestamp="1602847449991" />
+    <state x="689" y="231" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.994@0.34.1920.994" timestamp="1603914085746" />
     <state x="689" y="232" width="530" height="598" key="FileChooserDialogImpl/0.34.1920.997@0.34.1920.997" timestamp="1601633933881" />
     <state width="1864" height="246" key="GridCell.Tab.0.bottom" timestamp="1601534119912">
       <screen x="0" y="34" width="1920" height="997" />
@@ -458,23 +481,32 @@
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="600" y="202" width="709" height="658" key="NewPhpClassDialog/0.34.1920.997@0.34.1920.997" timestamp="1601484277071" />
-    <state x="324" y="79" key="SettingsEditor" timestamp="1601496718917">
-      <screen x="0" y="34" width="1920" height="997" />
+    <state x="324" y="79" width="1271" height="912" key="SettingsEditor" timestamp="1603741466596">
+      <screen x="0" y="34" width="1920" height="994" />
     </state>
+    <state x="324" y="79" width="1271" height="912" key="SettingsEditor/0.34.1920.994@0.34.1920.994" timestamp="1603741466596" />
     <state x="324" y="79" key="SettingsEditor/0.34.1920.997@0.34.1920.997" timestamp="1601496718917" />
     <state x="910" y="345" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1602872370591">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
     <state x="910" y="345" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1920.994@0.34.1920.994" timestamp="1602872370591" />
     <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601585552817" />
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602762538208">
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604086661828">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1602762538208" />
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1604086661828" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601585671752" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601534887479">
       <screen x="0" y="34" width="1920" height="997" />
     </state>
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601534887479" />
+    <state x="568" y="274" width="773" height="520" key="git4idea.merge.GitPullDialog" timestamp="1602949643412">
+      <screen x="0" y="34" width="1920" height="994" />
+    </state>
+    <state x="568" y="274" width="773" height="520" key="git4idea.merge.GitPullDialog/0.34.1920.994@0.34.1920.994" timestamp="1602949643412" />
+    <state x="1114" y="289" width="587" height="537" key="refactoring.ChangeSignatureDialog" timestamp="1604087325359">
+      <screen x="0" y="34" width="1920" height="994" />
+    </state>
+    <state x="1114" y="289" width="587" height="537" key="refactoring.ChangeSignatureDialog/0.34.1920.994@0.34.1920.994" timestamp="1604087325359" />
   </component>
 </project>

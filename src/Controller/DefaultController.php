@@ -74,20 +74,19 @@ class DefaultController extends AbstractController
     }
 
     /**
-     * @Route(path="/add-article")
+     * @Route(path="/add-article", name="add-article")
      * @param EntityManagerInterface $entityManager
      * @param Request $request
      * @return Response
      */
     public function next(EntityManagerInterface $entityManager, Request $request)
     {
-        $request->request->all();
-//        $category = new Category();
-//        $category->setTitle('qqqqq');
+        $category = new Category();
+        $category->setTitle('aaaaaaa');
 
         $article = new Article();
 
-        $form = $this->createForm(ArticleType::class, $article);
+        $form = $this->createForm(ArticleType::class, $article, ['method' => $request->getMethod()]);
 
         $form->handleRequest($request);
 
@@ -95,44 +94,41 @@ class DefaultController extends AbstractController
              $entityManager->persist($article);
              $entityManager->flush();
 
-             return new Response('Done!');
+            $this->addFlash('success', 'Done!');
+            return $this->redirect('add-article');
         }
 
         return $this->render('lucky/article_form.html.twig', [
             'articleForm' => $form->createView(),
         ]);
-
-//        $article
-//            ->setImage('my-image')
-//            ->setContent('my-content')
-//            ->setTitle('my title')
-//            ->setCategories($category)
-//            ;
-
-//        $entityManager->persist($category);
-//        $entityManager->persist($article);
-//        $entityManager->flush();
-//        return new Response('Done!');
-//
     }
 
     /**
-     * @Route(path="/articles/{id}")
+     * @Route(path="/articles/{id}", name="edit-article")
      * @param Article $article
      * @param EntityManagerInterface $entityManager
      * @return Response
      */
-    public function getArticle(Article $article, EntityManagerInterface $entityManager)
+    public function editArticle(Article $article, EntityManagerInterface $entityManager, Request $request)
     {
-        $article
-            ->setTitle('Update title')
-            ->setContent('Update content')
-            ->setImage('Update image')
-        ;
-        $entityManager->flush();
+        $form = $this->createForm(
+            ArticleType::class,
+            $article,
+            ['method' => $request->getMethod()]
+        );
 
-       return new Response($article->getTitle());
+        $form->handleRequest($request);
 
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager->flush();
+
+            $this->addFlash('success', 'Done!');
+            return $this->redirectToRoute('edit-article', ['id' => $article->getId() ]);
+        }
+
+        return $this->render('lucky/article_form.html.twig', [
+            'articleForm' => $form->createView(),
+        ]);
     }
 
     /**
@@ -157,7 +153,7 @@ class DefaultController extends AbstractController
     public function list(EntityManagerInterface $entityManager)
     {
         $articleRepo = $entityManager->getRepository(Article::class);
-        $aticles = $articleRepo->findAll();
+        $articles = $articleRepo->findAll();
 
         dd($articleRepo->findByCategoryId(2));
 
