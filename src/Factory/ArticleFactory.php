@@ -29,7 +29,14 @@ final class ArticleFactory extends ModelFactory
     protected function getDefaults(): array
     {
         return [
-            // TODO add your default values here (https://github.com/zenstruck/foundry#model-factories)
+            'title'=> self::faker()->name,
+//            'content' => self::faker()->realText(80),
+            'content' => self::faker()->paragraphs(
+                self::faker()->numberBetween(1, 4),
+                true
+            ),
+            'image' => self::faker()->domainName,
+
         ];
     }
 

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143862a2-5b51-4172-941b-3c1fa378c6d9" name="Default Changelist" comment="add Data Fixtures">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ArticleFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/our_church.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/our_church.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/CategoryFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/article.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/church/category.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/church/category.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ib_buffer_pool" afterDir="false" />
@@ -20,11 +12,9 @@
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lucky/article_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lucky/article_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ArticleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ArticleFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,6 +238,9 @@
       <workItem from="1603920177198" duration="42000" />
       <workItem from="1603920289221" duration="611000" />
       <workItem from="1604085899558" duration="3600000" />
+      <workItem from="1604248623963" duration="6822000" />
+      <workItem from="1604413927038" duration="26000" />
+      <workItem from="1604769572392" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="my new project">
       <created>1601490648671</created>
@@ -491,10 +484,10 @@
     </state>
     <state x="910" y="345" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1920.994@0.34.1920.994" timestamp="1602872370591" />
     <state x="991" y="346" width="887" height="632" key="Vcs.Push.Dialog.v2/0.34.1920.997@0.34.1920.997" timestamp="1601585552817" />
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604086661828">
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604413952272">
       <screen x="0" y="34" width="1920" height="994" />
     </state>
-    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1604086661828" />
+    <state x="100" y="132" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.994@0.34.1920.994" timestamp="1604413952272" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.997@0.34.1920.997" timestamp="1601585671752" />
     <state x="100" y="132" width="1720" height="799" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601534887479">
       <screen x="0" y="34" width="1920" height="997" />
